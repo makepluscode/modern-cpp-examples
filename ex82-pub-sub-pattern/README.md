@@ -2,6 +2,8 @@
 
 This example demonstrates the Publisher-Subscriber (Pub-Sub) design pattern implemented in modern C++. The Pub-Sub pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. This pattern promotes loose coupling between components.
 
+이 예제는 modern C++로 구현된 Publisher-Subscriber (Pub-Sub) design pattern을 보여줍니다. Pub-Sub pattern은 객체들 간의 일대다 의존성을 정의하여, 한 객체의 상태가 변경될 때 모든 의존 객체들이 자동으로 알림을 받고 업데이트되도록 합니다. 이 pattern은 component들 간의 느슨한 결합을 촉진합니다.
+
 ## Files
 
 - **ex82.cpp**: This file contains the C++ code that demonstrates a simple implementation of the Publisher-Subscriber pattern.
@@ -63,6 +65,8 @@ This code shows:
 
 ## Common Use Cases
 
+**일반적인 사용 사례**
+
 - Event handling systems
 - Message brokers
 - User interface updates
@@ -70,19 +74,34 @@ This code shows:
 - Notification services
 - Observer pattern implementations
 
+- Event 처리 system
+- Message broker
+- User interface 업데이트
+- Distributed system
+- Notification service
+- Observer pattern 구현
+
 ## How to Compile and Run
 
+**컴파일 및 실행 방법**
+
 1. **Compile the Code**: Open a terminal and navigate to the `ex82-pub-sub-pattern` directory. Run the following command to compile the code:
+
+   **코드 컴파일**: terminal을 열고 `ex82-pub-sub-pattern` 디렉토리로 이동합니다. 다음 명령어를 실행하여 코드를 컴파일합니다:
    ```bash
    make
    ```
 
 2. **Run the Executable**: After compiling, run the executable with the following command:
+
+   **실행 파일 실행**: 컴파일 후, 다음 명령어로 실행 파일을 실행합니다:
    ```bash
    ./ex82.out
    ```
 
 3. **Clean Up**: To remove the compiled executable, use the following command:
+
+   **정리**: 컴파일된 실행 파일을 제거하려면 다음 명령어를 사용합니다:
    ```bash
    make clean
    ```
@@ -101,6 +120,8 @@ This will compile the example and create an executable named `ex82.out`. When yo
 
 ## What You Will Learn
 
+**배울 내용**
+
 - How to implement the Publisher-Subscriber design pattern in modern C++
 - How to use interfaces (abstract classes) to define contracts
 - How to manage dynamic objects using smart pointers
@@ -108,4 +129,13 @@ This will compile the example and create an executable named `ex82.out`. When yo
 - How to achieve loose coupling between components
 - The practical applications of the Pub-Sub pattern
 
+- Modern C++에서 Publisher-Subscriber design pattern을 구현하는 방법
+- Interface (abstract class)를 사용하여 contract를 정의하는 방법
+- Smart pointer를 사용하여 동적 객체를 관리하는 방법
+- 객체들 간의 일대다 관계를 구현하는 방법
+- Component들 간의 느슨한 결합을 달성하는 방법
+- Pub-Sub pattern의 실용적인 응용
+
 This example provides a practical introduction to the Publisher-Subscriber design pattern in C++, demonstrating how it can be used to create flexible and maintainable event-driven systems.
+
+이 예제는 C++의 Publisher-Subscriber design pattern에 대한 실용적인 소개를 제공하며, 유연하고 유지보수 가능한 event-driven system을 생성하는 데 어떻게 사용될 수 있는지 보여줍니다.
